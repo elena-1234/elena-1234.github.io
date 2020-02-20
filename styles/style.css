@@ -2,4 +2,7 @@ body   {
 	background-color: rgb(235, 192, 112); 
 	color: rgb(0, 0, 0);
 }
+.emoji {
+    font-size: "6";
+}
 
