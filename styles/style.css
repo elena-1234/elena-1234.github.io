@@ -1,14 +1,11 @@
-body   { 
-	background-color: rgb(212, 191, 153); 
-	color: rgb(0, 0, 0);
+body {
+	background-image: url("https://i.pinimg.com/originals/be/5e/d9/be5ed9156ebe73571b57ebfdc28655a4.jpg"), url("paper.gif");
+	background-size:100pt;
+	background-color: #cccccc;
+  }
 
-}
-
-.selektor1 {
-    font-family: fantasy;
-    
-}
 
 .selektor2 {
 	font-family: Bowlby One; 
 }
+
