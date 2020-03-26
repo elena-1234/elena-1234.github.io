@@ -111,3 +111,14 @@ h6 {
         .item6 { grid-column: 10 / span 3; grid-row: 3; }
         .item7 { grid-column: 1 / span 4; grid-row: 4; }
         .item8 { grid-column: 5 / span 8; grid-row: 4; }  
+ /*damit sich die Website dem Bildschirm anpasst*/
+ 
+
+#fixed a {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    text-decoration: none;
+    font-size: smaller;
+  }
+  }/* unten rechts fixierter «top» Link */
