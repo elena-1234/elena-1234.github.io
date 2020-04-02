@@ -2,7 +2,14 @@ body {
     background-color: rgb(201, 238, 158);
 }
 
-.m1
+.m1 {
+    float: left;
+}
+
+.m2 {
+    float: right;
+}
+
 
 h1 {
     text-align: center;
