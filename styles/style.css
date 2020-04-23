@@ -67,7 +67,7 @@ h6 {
 }
 
 .text {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 100%;
 }
 
@@ -146,3 +146,12 @@ h6 {
     font-size: smaller;
   }
   }/* unten rechts fixierter «top» Link */
+
+dl.bu {
+    float: left;
+    margin:10px 10px 10px 0;
+}
+dl.bu dd {
+    margin:0;
+    font-size:90%;
+}
