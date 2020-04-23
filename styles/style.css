@@ -38,6 +38,17 @@ h3 {
 }
 
 
+#index {
+    background-color: yellowgreen;
+    width: 50%;
+    height: 45%;
+    border: 3px black solid;
+    padding: 10px;
+    vertical-align: middle;
+    display: table-cell;
+    min-height: 20em;
+}
+
 
 h5 {
     text-decoration: inherit;
