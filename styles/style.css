@@ -66,7 +66,10 @@ h6 {
     /*Inhalt der Navigationszeile*/
 }
 
-
+.text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+}
 
 #Rezept1 {
     font-family: sans-serif;
@@ -79,9 +82,10 @@ h6 {
     font-size: 0.8rem;
     max-width: 100%;
     height: auto;
-    
+
    }
     
+   
    td, th {
     border: 1px solid rgb(190,190,190);
     padding: 10px 20px;
