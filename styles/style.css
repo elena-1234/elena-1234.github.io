@@ -60,6 +60,14 @@ h5 {
     /*Navigationszeile*/
 }
 
+a[href^="#"]:before{
+    content:'🔝 ';
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    font-size: smaller;
+    }
+    /*Go to top*/
 
 h6 {
     font-size: 90%;
