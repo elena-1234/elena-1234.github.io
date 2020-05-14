@@ -1,13 +1,16 @@
 body {
     background-color: rgb(201, 238, 158);
+    /*Hintergrundfarbe*/
 }
 
 .m1{
     float: left;
+    /*Spotify-Class 1*/
 }
 
 .m2{
     float: right;
+    /*Spotify-Class 2*/
 }
 
 h1 {
@@ -15,7 +18,6 @@ h1 {
     font-family: fantasy;
     /*Partyfuchs Titel*/
 }
-
 
 h2 {
     text-align: center;
@@ -28,16 +30,6 @@ h2 {
     /*Rezepte*/
 }
 
-
-h3 {
-    text-align: center;
-    font-size: initial;
-    font-style: oblique;
-    font-family: sans-serif;
-    /*Titel Getränke auf Quellenseite*/
-}
-
-
 #index {
     background-color: yellowgreen;
     width: 50%;
@@ -47,11 +39,13 @@ h3 {
     vertical-align: middle;
     display: table-cell;
     min-height: 20em;
+    /*Box auf Index-Seite*/
 }
  
 img{
     max-width: 100%;
     height: auto;
+    /*Fotos von Getränk*/
 }
 
 h5 {
@@ -60,15 +54,15 @@ h5 {
     /*Navigationszeile*/
 }
 
-a[href^="#"]:before{
+a[href^="#"]:before {
     content:'🔝 ';
     position: fixed;
     bottom: 15px;
     right: 15px;
     font-size: smaller;
-    }
     /*Go to top*/
-
+}
+    
 h6 {
     font-size: 90%;
     /*Inhalt der Navigationszeile*/
@@ -77,6 +71,7 @@ h6 {
 .text {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 100%;
+    /*für Responsiven Text bei Musik und Getränk*/
 }
 
 #Rezept1 {
@@ -90,7 +85,6 @@ h6 {
     font-size: 0.8rem;
     max-width: 100%;
     height: auto;
-
    }
     
    
@@ -119,47 +113,51 @@ h6 {
     padding: 10px;
    }
    /*Tabelle für Zutaten bei Getränke*/
+}
 
-   .grid-container {
+.grid-container {
     display: grid;
     grid-gap: 10px;
     background-color: #2196F3;
     padding: 10px;
-    }
+}
 
-    .grid-item {
+.grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px;
     font-size: 30px;
-    }
+}
 
-    @media only screen and (min-width: 768px) {
-        .item1 { grid-column: 1 / span 12; grid-row: 1; }
-        .item2 { grid-column: 1 / span 6; grid-row: 2; }
-        .item3 { grid-column: 7 / span 6; grid-row: 2; }
-        .item4 { grid-column: 1 / span 3; grid-row: 3; }
-        .item5 { grid-column: 4 / span 6; grid-row: 3; }
-        .item6 { grid-column: 10 / span 3; grid-row: 3; }
-        .item7 { grid-column: 1 / span 4; grid-row: 4; }
-        .item8 { grid-column: 5 / span 8; grid-row: 4; }  
+@media only screen and (min-width: 768px) {
+    .item1 { grid-column: 1 / span 12; grid-row: 1; }
+    .item2 { grid-column: 1 / span 6; grid-row: 2; }
+    .item3 { grid-column: 7 / span 6; grid-row: 2; }
+    .item4 { grid-column: 1 / span 3; grid-row: 3; }
+    .item5 { grid-column: 4 / span 6; grid-row: 3; }
+    .item6 { grid-column: 10 / span 3; grid-row: 3; }
+    .item7 { grid-column: 1 / span 4; grid-row: 4; }
+    .item8 { grid-column: 5 / span 8; grid-row: 4; }  
  /*damit sich die Website dem Bildschirm anpasst*/
  
-
 #fixed a {
     position: fixed;
     bottom: 0px;
     right: 0px;
     text-decoration: none;
     font-size: smaller;
-  }
-  }/* unten rechts fixierter «top» Link */
+    /* unten rechts fixierter «top» Link */
+}
 
 dl.bu {
     float: left;
     margin:10px 10px 10px 0;
+    /*damit das bild links ist und definierten Abstand zum Rand hat*/
 }
+
 dl.bu dd {
     margin:0;
     font-size:90%;
+}
+
 }
